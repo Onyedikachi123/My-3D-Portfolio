@@ -23,8 +23,7 @@ const Island = ({
     isRotating,
     setIsRotating,
     setCurrentStage,
-    currentFocusPoint,
-    ...restProps
+    ...props
   }) => {
     const islandRef = useRef();
     // Get access to the Three.js renderer and viewport
@@ -56,7 +55,7 @@ const Island = ({
       event.stopPropagation();
       event.preventDefault();
       setIsRotating(false);
-    };
+    }
   
     // Handle pointer (mouse or touch) move event
     const handlePointerMove = (event) => {
@@ -180,7 +179,7 @@ const Island = ({
   
     return (
       // {Island 3D model from: https://sketchfab.com/3d-models/foxs-islands-163b68e09fcc47618450150be7785907}
-      <a.group ref={islandRef} {...restProps}>
+      <a.group ref={islandRef} {...props}>
         <mesh
           geometry={nodes.polySurface944_tree_body_0.geometry}
           material={materials.PaletteMaterial001}
