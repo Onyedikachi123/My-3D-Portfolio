@@ -182,8 +182,8 @@ export const experiences = [
         ],
     },
     {
-        title: "Senior Frontend Engineer",
-        company_name: "SycamoreNG",
+        title: "Technical Lead",
+        company_name: "Reeshare",
         icon: SycamoreNG,
         iconBg: "#fff",
         date: "Aug 2020 - April 2021",
