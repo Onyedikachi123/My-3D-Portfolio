@@ -4,6 +4,7 @@ import Cerebral from '../assets/images/cerebral.png'
 import Cuesoft from '../assets/images/cuesoft.png'
 import SycamoreNG from '../assets/images/sycamore.png'
 import Salvex from '../assets/images/salvex.png'
+import Upwork from '../assets/images/upwork.png'
 import {
     car,
     contact,
@@ -182,22 +183,9 @@ export const experiences = [
         ],
     },
     {
-        title: "Technical Lead",
-        company_name: "Reeshare",
-        icon: SycamoreNG,
-        iconBg: "#fff",
-        date: "Aug 2020 - April 2021",
-        points: [
-            "Spearheaded the development of a dynamic web application for Sycamore using Vue.js, Vuex, and Nuxt.js, ensuring robust and scalable frontend architecture.",
-            "Implemented state management with Vuex, enhancing the application's performance and maintainability.",
-            "Utilized Nuxt.js to create a server-side rendered application, improving SEO and initial load times.",
-            "Collaborated closely with the backend team to integrate frontend components with the backend API, ensuring seamless data flow and user interactions.",
-        ],
-    },
-    {
-        title: "Senior Frontend Engineer",
-        company_name: "SycamoreNG",
-        icon: SycamoreNG,
+        title: "Senior Software Engineer (Independant Contractor)",
+        company_name: "Upwork",
+        icon: Upwork,
         iconBg: "#fff",
         date: "Aug 2020 - April 2021",
         points: [
