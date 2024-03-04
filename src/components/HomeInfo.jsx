@@ -19,7 +19,7 @@ const renderContent = {
       text-center neo-brutalism-blue py-4 px-8 text-white mx-5"
     >
       Hi, I am <span className="font-semibold">Kachi </span>👋
-      <br />I'm a Solution-driven Senior Software Engineer.
+      <br />Solution-driven Senior Software Engineer.
       <br /> To navigate to other links by scrolling the website horizontally.
     </h1>
   ),
